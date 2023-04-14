@@ -46,7 +46,6 @@ header {
   overflow: hidden;
 }
 nav {
-  
   @media (min-width: 992px) {
     ul.links.second {
       display: none;
@@ -62,6 +61,7 @@ nav {
 
   }
   @include flexCenter;
+  justify-content: space-between;
 
   padding: 5px;
   width: 90%;
