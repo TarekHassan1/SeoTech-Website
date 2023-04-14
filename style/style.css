@@ -46,8 +46,8 @@ header {
 
 nav {
   display: flex;
+  justify-content: center;
   align-items: center;
-  justify-content: space-between;
   padding: 5px;
   width: 90%;
   color: white;
@@ -147,7 +147,7 @@ nav button.toggle span.hide {
 }
 .Home {
   position: relative;
-  background-image: url(images/hero-bg.png);
+  background-image: url("images/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
@@ -209,13 +209,13 @@ nav button.toggle span.hide {
   margin-bottom: 10px;
 }
 .Home .container .item p {
-  margin-bottom: 20px;
+  margin-bottom: 1.2rem;
   line-height: 2;
 }
 .Home .container .item button {
-  padding: 10px 20px;
+  padding: 0.625rem 1.2rem;
   font-size: 1rem;
-  margin-left: 15px;
+  margin-left: 1rem;
   cursor: pointer;
   border: 0;
 }
@@ -352,6 +352,7 @@ nav button.toggle span.hide {
 .Services .container .services-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   text-align: center;
   gap: 30px;
@@ -360,7 +361,6 @@ nav button.toggle span.hide {
 @media (max-width: 767px) {
   .Services .container .services-container {
     flex-direction: column;
-    align-items: center;
   }
 }
 .Services .container .services-container .service {
@@ -420,8 +420,8 @@ nav button.toggle span.hide {
 }
 .work .container .hww-container .hww .idea {
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.15);
-  padding: 20px;
-  margin-bottom: 20px;
+  padding: 1.2rem;
+  margin-bottom: 1.2rem;
   display: flex;
   flex-wrap: wrap;
 }
@@ -583,7 +583,7 @@ nav button.toggle span.hide {
 
 .contact {
   overflow: hidden;
-  background-image: url(images/footer-bg.png);
+  background-image: url("images/footer-bg.png");
   background-position: right top;
   background-size: cover;
   padding-top: 250px;
@@ -596,9 +596,9 @@ nav button.toggle span.hide {
   height: 100%;
   margin-inline: auto;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 @media (max-width: 991px) {
   .contact .container {
@@ -626,7 +626,7 @@ nav button.toggle span.hide {
 }
 .contact .container form .inputs .name-email input {
   min-width: 260px;
-  margin-right: 20px;
+  margin-right: 1.2rem;
 }
 .contact .container form .inputs input {
   margin-bottom: 1.5rem;
@@ -754,7 +754,7 @@ nav button.toggle span.hide {
 }
 .contact .container .next-half .contact-2 .newsletter button {
   background-color: #7c6e20;
-  padding: 10px 20px;
+  padding: 0.625rem 1.2rem;
   font-size: 1rem;
   width: 100%;
   border: 0;
