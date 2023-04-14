@@ -6,7 +6,7 @@ const s3=document.querySelector(".s3");
 const ulSecond=document.querySelector(".links.second");
 toggle.addEventListener("click",()=>{
     s2.classList.toggle("hide");
-    s1.classList.toggle("transform-1");
+    s1.classList.toggle("transform-1"); 
     s3.classList.toggle("transform-2");
     ulSecond.classList.toggle("open");
 })
