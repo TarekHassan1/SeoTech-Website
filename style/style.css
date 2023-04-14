@@ -147,7 +147,7 @@ nav button.toggle span.hide {
 }
 .Home {
   position: relative;
-  background-image: url(/images/hero-bg.png);
+  background-image: url(images/hero-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 98vh;
@@ -583,7 +583,7 @@ nav button.toggle span.hide {
 
 .contact {
   overflow: hidden;
-  background-image: url(/images/footer-bg.png);
+  background-image: url(images/footer-bg.png);
   background-position: right top;
   background-size: cover;
   padding-top: 250px;
